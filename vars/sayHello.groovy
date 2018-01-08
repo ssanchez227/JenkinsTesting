@@ -2,9 +2,9 @@
 
 def namo = 'Bill'
 
-Boolean call(String name = 'human') {
+def call(String name = 'human') {
   echo "Hello, ${name}."
-  return true
+  return "true"
 }
 
 
